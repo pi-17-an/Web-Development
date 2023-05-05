@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: poppins;
+}
+.NavBar {
+   display: flex; 
+   padding: 10px; 
+   color: rgb(112, 111, 111);
+   align-items: center;
+}
+
+.Arrow {
+    padding-left: 10px;
+}
+.Report {
+    padding-left: 10px;
+    font-size: 17px;
+}
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.HeaderLeft {
+    display: flex;
+    align-items: center;
+}
+.HeaderLeft1 {
+    padding-left: 10px;
+    font-size: 20px;
+}
+.HeaderLeft2 {
+    padding-left: 10px;
+}
+.HeaderLeft2 select {
+    padding: 2px;
+    border-radius: 8px;
+    background-color: transparent;
+    border-color: rgb(199, 156, 156);
+}
+.ArrowDown {    
+    padding-left: 20px;
+}
+.HeaderLeft3 {
+    padding-left: 20px;
+    font-size: 13px;
+}
+.HeaderRight {
+    display: flex;
+    width: 220px;
+    align-items: center;
+    justify-content: space-between;  
+    padding: 0 10px;  
+}
+.Download {
+    border: 1px solid transparent;
+    font-weight: bold;
+    color: blue;
+    font-size: 14px;
+    background-color: rgb(241, 215, 215);
+    border-radius: 4px;
+    padding: 2px 3px;
+}
+
+.Print {
+    font-weight: bold;
+    font-size: 14px;
+}
+.Save {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.Box {
+  
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: auto;
+}
+.box1 {
+ border: 1px solid rgb(190, 187, 187);
+ column-gap: 2rpm;
+ height: 100px;
+ padding: 20px 20px;
+ display: flex;
+ align-items: center;
+}
+
+.Percentage3 {
+    font-size: 30px;
+    color: rgb(0, 165, 0);
+}
+.Percentage1 {
+    color: red;
+    margin-bottom: 23px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.Percentage2 {
+    color: rgb(141, 130, 130);
+}
+.value3 {
+    /* justify-content: space-between; */
+    font-size: 30px;
+    color: rgb(231, 140, 231);
+    width: 250px;
+    margin-top: 25px;
+}
+
+.value {
+    align-items: center;
+}
+.value1 {
+    color: rgb(0, 165, 0);
+    padding-top: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.value2 {
+    color: rgb(141, 130, 130);
+}
+span {
+    font-size: small;
+    color: rgb(126, 122, 122);
+}
+
+.Icon3 {
+    font-size: 30px;
+    color: blue;
+}
+.Icon1 {
+    color: red;
+    margin-bottom: 23px;
+    font-size: medium;
+    margin-left: 30px;
+}
+
+.Icon2 {
+    color: rgb(141, 130, 130);
+}
+
+.Valudate3 {
+    font-size: 30px;
+    color: red;
+}
+.Valudate1 {
+    color: rgb(0, 165, 0);
+    margin-bottom: 23px;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.Valudate2 {
+    color: rgb(141, 130, 130);
+}
+
+.Box11 {
+    height: 100px;
+    width: auto;
+    margin: 0 20px;
+    border: 1px solid rgb(224, 219, 219);
+}
+
+.Register3 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding-left: 20px;
+    font-weight: bold;
+    
+}
+.Register1 {
+    color: rgb(0, 165, 0);
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+.Register2 {
+    color: rgb(141, 130, 130);
+    padding-left: 20px;
+}
+
+.Register{
+    align-items: center;
+    display: flex;
+}
+
+.month1 {
+    display: flex;
+}
+.month {
+    margin-left: 980px;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: -15px;    
+}
+
+/* .Box3{
+    position: relative;
+} */
+
+/* 
+.Anbu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+     /* border: 1px solid black; */
+     /* padding: 10px;
+}
+
+.anbubox{  */
+    /* width: auto; */
+    /* margin: 10px 0 ;
+    height: 120px;
+    border: 1px solid black;
+}
+
+.val1{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.val3 {
+    
+}
+.val4 {
+    padding-right: 30px;
+    padding-top: 20px;
+} */
